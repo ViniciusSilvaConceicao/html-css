@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in(polegadas), px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            
+            ...Para medidas de fonte é recomendado usar px e em...
+
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+
+            /*lighter normal bold bolder*/
+            
+        }
+
+        h1{
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em
+            font-family: italic;
+            
+            */
+            font: italic bolder 3em 'work Sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'work Sans';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, laborum molestias iure ad suscipit praesentium, laudantium hic nobis omnis, accusamus cupiditate aperiam vel facere provident ipsum nisi? Possimus, eos repellendus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem ut cum eligendi expedita dolorum eveniet? Optio sit, esse totam facilis dolore quas obcaecati ipsa dolorem officiis vero aspernatur, unde consequuntur?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio reiciendis et blanditiis aut hic sunt odio voluptatem quisquam quasi possimus, obcaecati dolorum harum atque voluptate explicabo illum labore quidem molestiae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, quibusdam. Sint illo quae perspiciatis enim voluptate voluptas tempore? Rem aspernatur magnam numquam ipsum illum qui vero. Quae, ad. Accusantium, voluptate.</p>
+</body>
+</html>

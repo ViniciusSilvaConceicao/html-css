@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'iDroid';
+    src: url(midia/fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #83E1AD;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+header{
+    background-image: linear-gradient(to bottom, #3DDC84
+    , #2FA866, #063D1E);
+    
+}
+
+header > p{
+    text-align: center;
+    color: white;
+}
+
+header > h1{
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+}
+/*#C5EBD6
+#83E1AD
+#3DDC84
+#2FA866
+#063D1E*/ 
+
+.titulo{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5% 5% 5% 5%;
+}
+
+.link-individual{
+    display: inline-block;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #3DDC84;
+    font-weight: bold;
+}
+
+nav:hover {
+    background-color: rgba(211, 211, 211, 0.219);
+}
+
+main{
+    background-color: #2FA866;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0px 5px 5px 5px;
+    margin: 0px 50px;
+}
+
+article{
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+section{
+    position: relative;
+    background-color: #063D1E;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0px 10px;
+}
+
+aside{
+    background-color: #C5EBD6;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    margin: 0px;
+}
+
+footer{
+    background-color: #063D1E;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+
+.align-center{
+    text-align: center;
+}
+
+.tituloMenor{
+    color: white;
+    font-size: 16px;
+    background-color: #2FA866;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.tituloMaior{
+    font-family: 'iDroid', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #063D1E;
+    background-image: linear-gradient(to right, #83E1AD, #C5EBD6, white);
+    padding: 0px 10px;
+}
+
+.link-nome{
+    background-color: #3DDC84;
+    color: #063D1E;
+    font-weight: bold;
+}
+
+div{
+    text-align: center;
+}
